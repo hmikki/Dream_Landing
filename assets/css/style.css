@@ -25,7 +25,20 @@
   font-weight: bold;
   padding: 10px;
 }
-
+ul.social{
+    list-style: none;
+    position: absolute;
+    bottom: 20px;
+    right: 110px;
+}
+ul.social li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+}
+ul.social li a i{
+    color: white;
+}
 @media screen and (max-width: 922px){
     .desktop{
         display: none !important;
