@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 922px){
     .hero{
-        background: url("../images/mobile.jpg.jpg");
+        background: url("../images/mobile.jpg");
     }
     /*.desktop{*/
     /*    display: none !important;*/
