@@ -31,8 +31,11 @@ i.fas.fa-phone{
 ul.social{
     list-style: none;
     position: absolute;
-    bottom: 80px;
+    bottom: 20px;
     right: 110px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 ul.social li{
     display: inline-block;
@@ -57,6 +60,13 @@ ul.social li a i{
         font-weight: bold;
         padding: 0px;
         left: 5px;
+    }
+    ul.social{
+        bottom: 80px !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        right: unset;
     }
 }
 @media screen and (min-width:1600px){
