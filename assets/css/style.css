@@ -25,10 +25,13 @@
   font-weight: bold;
   padding: 10px;
 }
+i.fas.fa-phone{
+    color: black;
+}
 ul.social{
     list-style: none;
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
     right: 110px;
 }
 ul.social li{
@@ -48,7 +51,7 @@ ul.social li a i{
     }
     .call_to_action {
         position: absolute;
-        bottom: 100px;
+        bottom: 150px;
         right: 5px;
         font-size: 14px;
         font-weight: bold;
