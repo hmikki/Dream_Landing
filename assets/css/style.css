@@ -18,7 +18,7 @@
 }
 .desktop, .mobile{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .call_to_action{
   position: absolute;
