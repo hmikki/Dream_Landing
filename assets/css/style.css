@@ -13,8 +13,8 @@
   position: relative;
     width: 100%;
     height: 100vh;
-    background: url("../images/desktop.jpg");
-    background-size: 100% 100%;
+    /*background: url("../images/desktop.jpg");*/
+    /*background-size: 100% 100%;*/
 }
 
 .call_to_action{
@@ -27,16 +27,16 @@
 }
 
 @media screen and (max-width: 922px){
-    .hero{
-        background: url("../images/mobile.jpg") !important;
-        background-size: 100% 100%;
+    /*.hero{*/
+    /*    background: url("../images/mobile.jpg") !important;*/
+    /*    background-size: 100% 100%;*/
+    /*}*/
+    .desktop{
+        display: none !important;
     }
-    /*.desktop{*/
-    /*    display: none !important;*/
-    /*}*/
-    /*.mobile{*/
-    /*    display: block !important;*/
-    /*}*/
+    .mobile{
+        display: block !important;
+    }
     .call_to_action {
         position: absolute;
         bottom: 100px;
