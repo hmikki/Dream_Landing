@@ -61,7 +61,7 @@ ul.social li a i{
     }
     .call_to_action {
         position: absolute;
-        bottom: 120px;
+        bottom: 45%;
         font-size: 18px;
         font-weight: bold;
         padding: 10px;
