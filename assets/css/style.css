@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Droid Arabic Kufi', serif;
+    /*font-family: 'Cairo', sans-serif;*/
+
+}
+.hero{
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    /*background: url("../images/desktop.jpg");*/
+    /*background-size: 100% 100%;*/
+}
+.call_to_action{
+  position: absolute;
+  bottom: 100px;
+  right: 110px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+@media screen and (max-width: 922px){
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+    }
+    .call_to_action {
+        position: absolute;
+        bottom: 100px;
+        right: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0px;
+        left: 5px;
+    }
+}
+@media screen and (min-width:1600px){
+    .call_to_action {
+        right: 150px;
+    }
+}
