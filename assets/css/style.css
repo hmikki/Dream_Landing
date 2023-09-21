@@ -96,7 +96,9 @@ ul.social li a i{
         left: 30%;
     }
     .calling{
-        right: 25%;
+        right: 30%;
+        font-size: 18px;
+        bottom: 40%;
     }
 
 ;
