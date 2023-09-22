@@ -105,15 +105,18 @@ ul.social li a i{
     .calling{
         right: 30%;
         font-size: 18px;
-        /*bottom: 40%;*/
+        bottom: 100px;
     }
     .calling i{
         font-size: 40px;
         left: -65px;
         top: -10px;
     }
-
-;
+    .price {
+        position: absolute;
+        bottom: 65px;
+        left: 130px;
+    }
 }
 @media screen and (min-width:1600px){
     .call_to_action {
