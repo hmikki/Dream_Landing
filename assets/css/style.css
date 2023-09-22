@@ -34,11 +34,13 @@
     color: white;
     line-height: 1;
     text-align: right;
+    left: 120px;
 }
 .calling i{
     font-size: 50px;
     position: relative;
-    top: 25px;
+    top: -15px;
+    left: -20px;
 }
 .calling:hover,
 .calling:active,
@@ -102,7 +104,8 @@ ul.social li a i{
     }
     .calling i{
         font-size: 40px;
-        top: 20px;
+        top: -10px;
+        left: -20px;
     }
 
 ;
