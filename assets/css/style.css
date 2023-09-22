@@ -38,9 +38,14 @@
 }
 .calling i{
     font-size: 50px;
-    position: relative;
+    position: absolute;
     top: -15px;
-    left: -20px;
+    left: -80px;
+}
+.price{
+    position: absolute;
+    bottom: 15px;
+    left: 145px;
 }
 .calling:hover,
 .calling:active,
@@ -104,7 +109,8 @@ ul.social li a i{
     }
     .calling i{
         font-size: 40px;
-        left: unset !important;
+        left: -65px;
+        top: -10px;
     }
 
 ;
